@@ -1,0 +1,17 @@
+<div class="parent">
+
+    <mat-toolbar class="toolbar">
+        <mat-icon></mat-icon>
+        <h2>Vibes</h2>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <mat-icon>menu</mat-icon>
+        </button>
+
+    </mat-toolbar>
+
+    <div [class.mat-elevation-z2]="true" class="body">
+        <app-event-card *ngFor="let event of events"></app-event-card>
+    </div>
+    
+    
+</div>
