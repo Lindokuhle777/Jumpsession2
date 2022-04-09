@@ -1,0 +1,28 @@
+.card-image{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.float-left {
+    float: left;
+    text-align: left;
+}
+
+.float-left {
+    float: right;
+    text-align: right;
+}
+
+.card-subtitle {
+    
+}
+
+.card-title {
+    padding-top: 20px;
+}
+
+.card-button {
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 5px;
+}
