@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input,Output,EventEmitter } from '@angular/core';
+import{ Event }from '../Event'
 
 @Component({
   selector: 'app-event-card',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventCardComponent implements OnInit {
 
+  @Input()
+  event!: Event;
+
+  
+
   constructor() { }
 
   ngOnInit(): void {
   }
+  
 
 }

@@ -1,0 +1,36 @@
+.cardSty{
+    margin:auto;
+    width:90%;
+    padding:10px
+}
+
+.bodyCard{
+    margin-top: 20px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.example-full-width {
+    width: 100%;
+  }
+
+.btn{
+    width:100%
+}
+
+.cvv{
+    width: 20%;
+}
+
+.select-child {
+    width:30%
+}
+
+.select-child2 {
+    width:25%;
+    margin-left:5px
+}
+.select-parent{
+    display:flex;
+    flex-direction:row;
+}

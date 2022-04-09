@@ -1,1 +1,55 @@
-<p>payment works!</p>
+<div [class.mat-elevation-z2]="true">
+    <mat-card class="cardSty">
+        <h1>Keep it mello</h1>
+        <h2>Total: R150</h2>
+    </mat-card>
+
+    <mat-card class="bodyCard">
+        <mat-card-title>EPAY</mat-card-title>
+        <form>
+
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Name on card</mat-label>
+                <input type="text" matInput 
+                       placeholder="Johm Doe" required>
+                <mat-error>
+                  Email is <strong>required</strong>
+                </mat-error>
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Card number</mat-label>
+                <input type="number" matInput required>
+            </mat-form-field>
+
+    
+
+            <div class="select-parent">
+
+                <mat-form-field appearance="fill" class="select-child">
+                    <mat-label>Month</mat-label>
+                    <mat-select>
+                      <mat-option value={month} *ngFor="let month of months">{{month}}</mat-option>
+                    </mat-select>
+                </mat-form-field>
+    
+                <mat-form-field appearance="fill" class="select-child2">
+                    <mat-label>Year</mat-label>
+                    <mat-select>
+                      <mat-option value={Year} *ngFor="let year of years">{{year}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+            </div>
+            <mat-form-field class="cvv" appearance="fill">
+                <mat-label>CVV</mat-label>
+                <input type="number" matInput required>
+            </mat-form-field>
+            <button type="submit" mat-raised-button class="btn">Complete Payment</button>
+
+
+
+        </form>
+
+    </mat-card>
+
+</div>

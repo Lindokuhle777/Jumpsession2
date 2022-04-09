@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import Event from '../';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  events = ["event1", "event2", "event3"];
+  events = [{
+    "id": 1, 
+    "venue":"Times Square, Menlyn, ZA", 
+    "date": "15 December, 2022", 
+    "Description": "Marshmello finally comes to mzanzi for the most epic festival since Ramaphosa opened up the country. He will be accompanied by the best that our country has to offer.", 
+    "image": "marshmello-square.jpg", 
+    "Time": "18:00 - 06:00", 
+    "Title": "Keep it Mello",
+    "Category": "Festival"
+  },
+    
+  {
+    "id": 2, 
+    "venue":"Times Square, Menlyn, ZA", 
+    "date": "15 December, 2022", 
+    "Description": "Marshmello finally comes to mzanzi for the most epic festival since Ramaphosa opened up the country. He will be accompanied by the best that our country has to offer.", 
+    "image": "marshmello-square.jpg", 
+    "Time": "18:00 - 06:00", 
+    "Title": "Keep it Mello",
+    "Category": "Festival"
+    }, 
+    
+    
+  {
+    "id": 3, 
+    "venue":"Times Square, Menlyn, ZA", 
+    "date": "15 December, 2022", 
+    "Description": "Marshmello finally comes to mzanzi for the most epic festival since Ramaphosa opened up the country. He will be accompanied by the best that our country has to offer.", 
+    "image": "marshmello-square.jpg", 
+    "Time": "18:00 - 06:00", 
+    "Title": "Keep it Mello",
+    "Category": "Festival"
+    }
+  ]
+  
 
 
 

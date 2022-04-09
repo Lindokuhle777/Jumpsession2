@@ -1,7 +1,6 @@
 .parent{
-    border: 2px solid black;
-    width: 50%;
     margin: auto;
+    width: 90%;
 }
 
 .example-icon {
@@ -13,6 +12,3 @@
     margin-left: auto;
 }
 
-.body {
-    background-color: #d3e0f2
-}

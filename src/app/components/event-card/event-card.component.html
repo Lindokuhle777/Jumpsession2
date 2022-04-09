@@ -1,25 +1,39 @@
-<mat-card>
+<div class="card">
+<mat-card >
     <mat-card-subtitle>Festival</mat-card-subtitle>
+
     <mat-card-content class = "card-image">
         <img mat-card-image src="../../../assets/marshmello-square.jpg" />
     </mat-card-content>
+
     <span class = "card-subtitle">
         <mat-card-subtitle class = "float-left">
-            <div>15 Decemeber 2022</div>  
-            <div>18:00 - 06:00</div>
+        
+            <div>{{event.date}}</div>  
+            <div>{{event.Time}}</div>
         </mat-card-subtitle>
-        <mat-card-subtitle class = "float-right">Time Square, Menlyn, ZA</mat-card-subtitle>
+        <mat-card-subtitle class = "float-right">{{event.venue}}</mat-card-subtitle>
         
     </span>
+
+    <div>
+
+        <mat-card-title class = "card-title">
+            {{event.Title}}
+         </mat-card-title>
+         <mat-card-content>
+            {{event.Description}}
+         </mat-card-content>
+         
+         <button mat-raised-button class = "btnCard">
+            BOOK
+         </button>
+
+
+    </div>
     
-     <mat-card-title class = "card-title">
-         KEEP IT MELLO
-     </mat-card-title>
-     <mat-card-content>
-        Marshmello finally comes to mzanzi for the most epic festival since Ramaphosa opened up the country. He will be accompanied by the best that our country has to offer. 
-     </mat-card-content>
-     <button class = "float-left card-button">
-        BOOK
-     </button>
+     
 
 </mat-card>
+
+</div>
