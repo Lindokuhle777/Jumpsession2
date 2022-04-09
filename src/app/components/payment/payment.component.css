@@ -10,6 +10,22 @@
     margin: 10px;
 }
 
+.parent{
+    margin: auto;
+    width: 90%;
+}
+
+.example-icon {
+    margin-left: auto;
+  }
+
+.toolbar {
+    text-align: center;
+    margin-left: auto;
+}
+
+
+
 .example-full-width {
     width: 100%;
   }
